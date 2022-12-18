@@ -4,18 +4,20 @@ import { AiOutlineUnorderedList } from 'react-icons/ai';
 import { AiOutlineSearch } from 'react-icons/ai'
 import { AiOutlineInfoCircle } from 'react-icons/ai'
 import Menu from './components/Menu/Menu';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import "./App.css";
 
 function App() {
   return (
-    <>
+      <main>
       <Router>
-        <Menu />
+         <Menu />
         <Routes>
-          <Route path="/" element={ <h1>Home Page</h1>}/>
+          <Route path="/" element={<Home/>}/>
         </Routes>
         </Router>
-    </>
+    </main>
   );
 }
 
