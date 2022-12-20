@@ -1,13 +1,10 @@
 import React from 'react';
-import { AiOutlineHome } from 'react-icons/ai';
-import { AiOutlineUnorderedList } from 'react-icons/ai';
-import { AiOutlineSearch } from 'react-icons/ai'
-import { AiOutlineInfoCircle } from 'react-icons/ai'
 import Menu from './components/Menu/Menu';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import "./App.css";
 import About from './pages/About';
+import List from './pages/List';
 
 function App() {
   return (
@@ -16,9 +13,10 @@ function App() {
          <Menu />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About/>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/list" element={<List/>} />
         </Routes>
-        </Router>
+      </Router>
     </main>
   );
 }
