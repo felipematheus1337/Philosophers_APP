@@ -5,10 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-      background: url("../src/assets/imgs/wallpaper.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100vh;
+  background: url("../src/assets/imgs/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
 
  
 }

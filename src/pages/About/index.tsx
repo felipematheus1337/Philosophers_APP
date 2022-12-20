@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.css";
-
+import Welcome from "../../assets/imgs/about.gif";
 
 function About() {
   return (
@@ -8,8 +8,8 @@ function About() {
       <h2>About the Project!</h2>
       <span>An FullStack Application which:</span>
       <br />
-      <span> - Used React with TypeScript for the frontend</span>
-      <span> - Used the default React router dom to do the routing</span>
+      <span> - Used React with TypeScript for the Frontend</span>
+      <span> - Used the default React Router Dom to do the Routing</span>
       <span> - Used NodeJS with TypeScript for the Backend</span>
       <span> - Used Redis for Caching some operations on the Backend</span>
       <br />
@@ -20,6 +20,8 @@ function About() {
       <span>And redirect to which one of then</span>
 
       <h3>Most important of all, have some fun!</h3>
+      
+      <img src={Welcome}/>
      </div>
   );
 }

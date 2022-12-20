@@ -7,11 +7,27 @@
     height: 100%;
    
 }
+.home h2 {
+    background-color: rgb(232, 228, 208, 0.4);
+    width: 300px;
+}
+
+.home h2:hover {
+    background-color: #302116;
+    color:rgb(232, 228, 208, 0.4);
+}
+
 
 .home span {
     text-align: justify;
     font-size: 1rem;
     font-weight: bold;
+    background-color: rgb(232, 228, 208, 0.4);
+}
+
+.home span:hover {
+    background-color: #302116;
+    color: rgb(232, 228, 208, 0.4);
 }
 
 .home img {
