@@ -23,7 +23,12 @@ function Menu() {
       <button>Find</button>
       </div>}
       <Link to="/about"><h4><AiOutlineInfoCircle size={20} />About</h4></Link>
-   </div>
+      <p>Legends</p>
+      <Link to="/about"><h4>Socrates</h4></Link>
+      <Link to="/about"><h4>Platão</h4></Link>
+        <Link to="/about"><h4>Aristóteles</h4></Link>
+    </div>
+    
   );
 }
 

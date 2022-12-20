@@ -7,6 +7,7 @@ import Menu from './components/Menu/Menu';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import "./App.css";
+import About from './pages/About';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Router>
          <Menu />
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About/>} />
         </Routes>
         </Router>
     </main>

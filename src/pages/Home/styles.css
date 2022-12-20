@@ -5,6 +5,7 @@
     color:#302116;
     text-align: start;
     height: 100%;
+   
 }
 
 .home span {
@@ -19,4 +20,11 @@
     height: 400px;
     border-radius: 30px;
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 696px) {
+
+    .home img {
+        display: none;
+    }
 }
