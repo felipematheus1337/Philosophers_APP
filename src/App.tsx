@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import "./App.css";
 import About from './pages/About';
 import List from './pages/List';
+import Philosopher from './pages/Philosopher';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/list" element={<List/>} />
+          <Route path="/list" element={<List />} />
+          <Route path="/philosopher" element={<Philosopher/>} />
         </Routes>
       </Router>
     </main>

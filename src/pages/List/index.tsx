@@ -3,29 +3,15 @@ import "./styles.css";
 import { useState, useEffect } from "react";
 
 import mock from "../../assets/mock/mock.json";
+import { useNavigate } from "react-router-dom";
 
-interface mockWorks {
-  id: number;
-  name: string;
-  date: string;
-  buyUrl: string;
-}
-
-
-interface mockData {
-  id: number,
-  name: string;
-  birthDate: string,
-  flag: string;
-  image: string;
-  country: string;
-  typePhilosophy: string;
-  works: Array<mockWorks>
-}
-
-
+import { mockData } from "../../@types/types";
+import { mockWorks } from "../../@types/types";
 
 function List() {
+
+  const navigate = useNavigate();
+
   const [data, setData] = useState<mockData[]>();
   
 
@@ -40,13 +26,16 @@ function List() {
     <div className="list">
       {data && data.map(res => {
         return (
-          <div key={res.id}>
-            <h1>Name:{res.name}</h1>
-            <img  src={res.image} />
-            <h3>BirthDate: {res.birthDate}</h3>
-            <img crossOrigin="anonymous" src={res.flag} alt={res.country} />
-
-          </div>
+             <div className="card" key={res.id}>
+            <img className="card-img-top" src={res.image} alt="philosopher image" />
+            <div className="card-body">
+              <h5 className="card-title">{res.name}</h5>
+              Country : { res.country} <img className="countryflag" crossOrigin="anonymous" src={res.flag} alt={res.country} />
+              <p>Birthdate: {res.birthDate}</p>
+              <p>Philosophy: {res.typePhilosophy}</p>
+              <button className="btn btn-dark"onClick={(e) => {navigate("/philosopher",{state: {philosopher:res}})}}>More Info...</button>
+            </div>
+            </div>
         )
       })
         

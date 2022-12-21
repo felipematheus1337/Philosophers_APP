@@ -6,6 +6,7 @@
         "flag": "https://countryflagsapi.com/png/Greece",
         "image": "https://philosophers-api.s3.us-east-2.amazonaws.com/4509780d82377c274211-aristoteles.jpg",
         "country": "Greece",
+        "description":"...",
         "typePhilosophy": "CLÁSSICA",
         "works": [
             {
@@ -23,6 +24,7 @@
         "flag": "https://countryflagsapi.com/png/Greece",
         "image": "https://philosophers-api.s3.us-east-2.amazonaws.com/2310f12db49e9694edbf-socrates.jpg",
         "country": "Greece",
+        "description":"...",
         "typePhilosophy": "CLÁSSICA",
         "works": [
             {
@@ -30,6 +32,25 @@
                 "name": "Metafísica",
                 "date": "350 B.C",
                 "buyUrl": "https://www.amazon.com.br/s?k=S%C3%B3crates+Fil%C3%B3sofo&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36J19SZUP972Y&sprefix=s%C3%B3crates+fil%C3%B3so%2Cstripbooks%2C163&ref=nb_sb_noss"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Leibniz",
+        "birthDate": "July 1, 1646",
+        "flag": "https://countryflagsapi.com/png/Germany",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6tJgbup9Hp4vUbVL-0EtMO2pPcIDb06eVHKj2bZBlRjEpeLs_pEnVqY&s.jpg",
+        "country": "Germany",
+        "description":"...",
+        "typePhilosophy": "Racionalismo",
+        "works": [
+            {
+                "id": 1,
+                "name": "Metafísica",
+                "date": "350 B.C",
+                "buyUrl": "https://www.amazon.com.br/s?k=Metaf%C3%ADsica&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AJBLB6IQGR79&sprefix=metaf%C3%ADsi%2Cstripbooks%2C189&ref=nb_sb_noss_2"
             }
         ]
     }

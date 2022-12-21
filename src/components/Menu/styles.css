@@ -21,12 +21,14 @@
 }
 
 .menu a {
+    margin: 25px auto;
     text-decoration: none;
     color:#302116;
 }
 
 .menu h4:hover {
     cursor: pointer;
+    margin-bottom: 4px;
 }
 
 .search input {
@@ -42,3 +44,39 @@
     color: white;
     border-radius: 10px;
 }
+
+ .menu h5 {
+     color: rgb(9, 8, 7);
+ }
+
+
+@media only screen and (max-width: 613px) { 
+
+    .menu {
+            
+            color: #302116;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: auto;
+            height: 180px;
+    }
+
+    .menu a {
+        margin: 10px;
+    }
+
+    .menu h4 {
+        margin: auto;
+    }
+    
+    .menu h5 {
+        margin: auto;
+        color:rgb(9, 8, 7);
+    }
+
+   
+
+}    
