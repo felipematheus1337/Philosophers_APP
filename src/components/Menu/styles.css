@@ -26,9 +26,18 @@
     color:#302116;
 }
 
+.menu a:hover {
+    cursor: pointer;
+    color: #302116;
+    background-color: rgb(232, 228, 208, 0.4);
+}
+
+
 .menu h4:hover {
     cursor: pointer;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
+    color:#302116;
+    background-color : rgb(232, 228, 208, 0.4);
 }
 
 .search input {
