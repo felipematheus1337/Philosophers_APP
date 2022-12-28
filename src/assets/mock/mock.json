@@ -6,7 +6,7 @@
         "flag": "https://countryflagsapi.com/png/Greece",
         "image": "https://philosophers-api.s3.us-east-2.amazonaws.com/4509780d82377c274211-aristoteles.jpg",
         "country": "Greece",
-        "description":"...",
+        "description":"was a Greek philosopher and polymath during the Classical period in Ancient Greece. Taught by Plato, he was the founder of the Peripatetic school of philosophy within the Lyceum and the wider Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology, and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.",
         "typePhilosophy": "CLÁSSICA",
         "works": [
             {
@@ -24,7 +24,7 @@
         "flag": "https://countryflagsapi.com/png/Greece",
         "image": "https://philosophers-api.s3.us-east-2.amazonaws.com/2310f12db49e9694edbf-socrates.jpg",
         "country": "Greece",
-        "description":"...",
+        "description":"was a Greek philosopher from Athens who is credited as the founder of Western philosophy and among the first moral philosophers of the ethical tradition of thought.[2] An enigmatic figure, Socrates authored no texts and is known mainly through the posthumous accounts of classical writers, particularly his students Plato and Xenophon. These accounts are written as dialogues, in which Socrates and his interlocutors examine a subject in the style of question and answer; they gave rise to the Socratic dialogue literary genre. Contradictory accounts of Socrates make a reconstruction of his philosophy nearly impossible, a situation known as the Socratic problem. Socrates was a polarizing figure in Athenian society. In 399 BC, he was accused of impiety and corrupting the youth. After a trial that lasted a day, he was sentenced to death. He spent his last day in prison, refusing offers to help him escape.",
         "typePhilosophy": "CLÁSSICA",
         "works": [
             {
@@ -43,12 +43,30 @@
         "flag": "https://countryflagsapi.com/png/Germany",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6tJgbup9Hp4vUbVL-0EtMO2pPcIDb06eVHKj2bZBlRjEpeLs_pEnVqY&s.jpg",
         "country": "Germany",
-        "description":"...",
+        "description":"was a German polymath active as a mathematician, philosopher, scientist and diplomat. He is one of the most prominent figures in both the history of philosophy and the history of mathematics. He wrote works on philosophy, theology, ethics, politics, law, history and philology. Leibniz also made major contributions to physics and technology, and anticipated notions that surfaced much later in probability theory, biology, medicine, geology, psychology, linguistics and computer science. In addition, he contributed to the field of library science: while serving as overseer of the Wolfenbüttel library in Germany, he devised a cataloging system that would have served as a guide for many of Europe's largest libraries.[17] Leibniz's contributions to this vast array of subjects were scattered in various learned journals, in tens of thousands of letters and in unpublished manuscripts. He wrote in several languages, primarily in Latin, French and German, but also in English, Italian and Dutch.[18][c]",
         "typePhilosophy": "Racionalismo",
         "works": [
             {
                 "id": 1,
                 "name": "Metafísica",
+                "date": "350 B.C",
+                "buyUrl": "https://www.amazon.com.br/s?k=Metaf%C3%ADsica&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AJBLB6IQGR79&sprefix=metaf%C3%ADsi%2Cstripbooks%2C189&ref=nb_sb_noss_2"
+            },
+            {
+                "id": 1,
+                "name": "Mecânica Quantica",
+                "date": "350 B.C",
+                "buyUrl": "https://www.amazon.com.br/s?k=Metaf%C3%ADsica&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AJBLB6IQGR79&sprefix=metaf%C3%ADsi%2Cstripbooks%2C189&ref=nb_sb_noss_2"
+            },
+            {
+                "id": 1,
+                "name": "Termodinâmica",
+                "date": "350 B.C",
+                "buyUrl": "https://www.amazon.com.br/s?k=Metaf%C3%ADsica&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AJBLB6IQGR79&sprefix=metaf%C3%ADsi%2Cstripbooks%2C189&ref=nb_sb_noss_2"
+            },
+            {
+                "id": 1,
+                "name": "Elementais",
                 "date": "350 B.C",
                 "buyUrl": "https://www.amazon.com.br/s?k=Metaf%C3%ADsica&i=stripbooks&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=AJBLB6IQGR79&sprefix=metaf%C3%ADsi%2Cstripbooks%2C189&ref=nb_sb_noss_2"
             }
